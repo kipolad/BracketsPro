@@ -13,7 +13,7 @@ fun main() {
         if (queueManager.isBracketChar(chars[i])) {
             isNormal = queueManager.isBracketNormal(chars[i], i)
             if (!isNormal) {
-                printWrongStringWithIndex(str, queueManager.getWrongIndex())
+                print(queueManager.getWrongIndex())
                 break
             }
         }
@@ -21,17 +21,9 @@ fun main() {
     if (isNormal) {
         val index = queueManager.getWrongIndex()
         if (index != BracketQueueManager.INDEX_NONE) {
-            printWrongStringWithIndex(str, index)
+            print(index)
         } else {
-            printSuccessString(str)
+            print("Success")
         }
     }
-}
-
-private fun printWrongStringWithIndex(str: String, index: Int) {
-    System.out.printf("%s: %d %n", str, index)
-}
-
-private fun printSuccessString(str: String) {
-    System.out.printf("%s: Success! %n", str)
 }
