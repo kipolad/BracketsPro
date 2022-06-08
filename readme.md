@@ -24,15 +24,6 @@
 ***
 Для запуска кода необходимо склонировать проект к себе на компьютер и запустить в IDE.
 
-Путь к файлу для запуска задачи: BracketPro/src/main/kotlin/ru/kipolad/bracketpro/Main.kt. Можно посмотреть код файла по [ссылке](src/main/kotlin/ru/kipolad/bracketpro/Main.kt).
+Путь к файлу для запуска задачи: [BracketPro/src/main/kotlin/ru/kipolad/bracketpro/Main.kt](src/main/kotlin/ru/kipolad/bracketpro/Main.kt).
 
-Путь к файлу с тестами: BracketPro/test/kotlin/BracketQueueManagerTest.kt. Можно посмотреть код файла по [ссылке](src/test/kotlin/BracketQueueManagerTest.kt).
-***
-
-Для запуска задачи через консоль нужно скачать jar и запустить его в любом удобном месте. Для этого нужно:
-
-1. [x] скачать jar файл по [ссылке](https://drive.google.com/file/d/1N9-FdZEc74xSvp44tFdV3By90MomfsHs/view?usp=sharing)
-2. [x] сохранить в удобной папке на компьютере
-3. [x] открыть командную строку и перейти в папку, где сохранен файл
-4. [x] прописать команду java -jar Brackets.jar
-5. [x] если всё сделано правильно, то запустится программа с решением задачи: вводим строку и получаем результат
+Путь к файлу с тестами: [BracketPro/test/kotlin/BracketQueueManagerTest.kt](src/test/kotlin/BracketQueueManagerTest.kt).
